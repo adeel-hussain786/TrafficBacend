@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL_PATH = r"C:\Users\Adeel Hussain\runs\detect\multi_class_model2\weights\best.pt"
+MODEL_PATH = "best.pt"
 model = YOLO(MODEL_PATH)
 
 # ------------------------------------------
